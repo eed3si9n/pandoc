@@ -7,3 +7,6 @@ RUN apk add --update \
 
 ADD ./getFiraFont.sh ./getFiraFont.sh
 RUN ./getFiraFont.sh
+
+ADD ./getNotoFont.sh ./getNotoFont.sh
+RUN ./getNotoFont.sh
